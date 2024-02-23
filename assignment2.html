@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>
+        protected area
+    </title>
+    <!--Qihang Yang 301277541-->
+
+    <style>
+        body {
+            background-color: #ffd800;
+            text-align: center;
+        }
+    </style>
+
+    <style>
+        ul.listA {
+            list-style-type: none
+        }
+    </style>
+</head>
+
+
+
+<body style="font-family:Verdana">
+    <div class="banner">
+        <img src="DIO.png" alt="DIO" style="width:550px" />
+        <h3>protected area</h3>
+        <p style="color:brown">
+            "Conservation area" redirects here. For the particular use of that term in the United Kingdom, see Conservation area (United Kingdom).
+            "Conservancy" redirects here. For a 501(c)(3) organization pursuing compliance of GNU GPL, see Software Freedom Conservancy.
+            This article is about protected regions of environmental or cultural value. For the protected area of a cricket pitch, see Cricket pitch.
+        </p>
+
+        <blockquote>
+            Protected areas or conservation areas are locations which receive protection because of their recognized natural, ecological or cultural values. <br />Protected areas are those areas in which human presence or the exploitation of natural resources (e.g. firewood, non-timber forest products, water, ...) is limited.
+        </blockquote>
+    </div>
+
+
+
+    <nav>
+        <ul class="listA">
+            <li> <a href="https://en.wikipedia.org/wiki/Protected_area" target="_blank">WIKI</a></li>
+            <li> <a href="https://ecotrust.ca/latest/blog/25-years-join-us-in-creating-a-better-future/?gclid=Cj0KCQiAwvKtBhDrARIsAJj-kTh5V_80K-rRAneZbnJD5CH1JE5HoIWkmGVoPm-F4TVvptBA5WornU0aAodSEALw_wcB" target="_blank">NGO in Canada</a></li>
+            <li> <a href="https://www.canada.ca/en/services/environment/conservation/protected-areas.html" target="_blank">information from goverment</a></li>
+            <li> <a href="https://www.youtube.com/watch?v=_F7TWKwWCjQ" target="_blank">Youtube link</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="mailto:yqhziyou13@gmail.com" target="_blank">Contact US</a></li>
+        </ul>
+
+
+    </nav>
+
+
+    <div id="hidden-div" style="display: none; margin-left:50%">
+        <img src="hide.jpg" style="width:550px;" />
+        <blockquote style="color:crimson">you found me now,but no bounes</blockquote>
+
+    </div>
+
+
+    <script>
+    // SET egg
+        var EGG = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
+    // define a array to save the input
+    var userInput = [];
+
+    // get the input
+    document.addEventListener('keydown', function(e) {
+        
+    userInput.push(e.code);
+
+    // check the input correction
+    if (userInput.slice(-EGG.length).join('') === EGG.join('')) {
+   
+        document.getElementById('hidden-div').style.display = 'block';
+    }
+
+    });
+
+    </script>
+
+
+
+
+
+    <footer>
+        <p>&copy; Qihang Yang 301277541 pictures from wiki <a href="https://en.wikipedia.org/wiki/Protected_area">WIKI</a> </p>
+    </footer>
+
+</body>
+</html>
